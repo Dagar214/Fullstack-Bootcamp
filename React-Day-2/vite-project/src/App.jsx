@@ -5,7 +5,6 @@ import InputExample from './InputExample'
 import ShowHide from './ShowHide'
 import MultiForm from './MultiForm'
 import Counter from './Counter'
-import Liked from './Liked'
 
 
 const App = () => {
@@ -41,7 +40,6 @@ const App = () => {
       <Counter />
       <Toggle />
       <InputExample />
-      <Liked />
 
       <ShowHide />
       <MultiForm />

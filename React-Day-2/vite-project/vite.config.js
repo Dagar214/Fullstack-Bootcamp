@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// IMPORTANT: repo name = Fullstack-Bootcamp
 export default defineConfig({
   plugins: [react()],
-  base: "/Full_Stack_Bootcamp/react-day-2/",
+  base: '/Fullstack-Bootcamp/',
 })
