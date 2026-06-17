@@ -7,9 +7,8 @@ const App = () => {
   
   return (
     <div>
-      <h1>useEffect Example</h1>
+      
       <UseEffectOne />
-      <h2>Timer</h2>
       <Timer />
       <WindowResize />
       
