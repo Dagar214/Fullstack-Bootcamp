@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagar214/Fullstack-Bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dagar214/Fullstack-Bootcamp/issues"
+  },
+  "homepage": "https://github.com/Dagar214/Fullstack-Bootcamp#readme"
+}
