@@ -41,5 +41,31 @@ Day 5
 20.Dependency array:
 21.if dependecy array is empyu than 1 time sideefeect runs.
 22.Comonents can be sent directy
-23.
 
+
+
+# diff bw Excess token and refresh token
+1. Excess Token:
+->
+->
+->
+->
+
+
+2. Refresh Token:
+->
+->
+->
+->
+
+# Bcrpt 
+->Salt round: Bcrypt automatically generates and include  uniqe salt for each password hash.
+This prevent attackers from using precomputed tables.
+
+# JWT Token
+JWT is commonly used for authentication and authorization.
+User Login Authentication
+✅ Secure API Access
+✅ Stateless Authentication
+
+JWT (JSON Web Token) is a secure token-based authentication mechanism used in web applications. After a user logs in, the server generates a token that is sent with future requests to verify the user's identity without storing session data on the server.
