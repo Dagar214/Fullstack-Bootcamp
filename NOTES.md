@@ -69,3 +69,9 @@ User Login Authentication
 ✅ Stateless Authentication
 
 JWT (JSON Web Token) is a secure token-based authentication mechanism used in web applications. After a user logs in, the server generates a token that is sent with future requests to verify the user's identity without storing session data on the server.
+
+# After generating Jwt if i take someones jwt and uses it in my  system will i get access?? 
+---> Yes
+
+# If i can get the acess by using someonelse token than how can i prevent this or can be avoided ??
+---> 
