@@ -52,3 +52,8 @@ db.employee.aggregate([
     }
   }
 ])
+
+
+//db.employee.find({empId:105})
+
+db.employee
