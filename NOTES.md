@@ -75,3 +75,29 @@ JWT (JSON Web Token) is a secure token-based authentication mechanism used in we
 
 # If i can get the acess by using someonelse token than how can i prevent this or can be avoided ??
 ---> 
+
+
+
+# Morgan vs Winston
+
+| **Morgan** | **Winston** |
+|------------|-------------|
+| Logs **HTTP requests** (GET, POST, URL, status code, response time) | Logs **application events** (errors, warnings, info, debug, custom messages) |
+| Express middleware for request logging | General-purpose logging library |
+| Automatically logs every incoming HTTP request | Logs are written manually using `logger.info()`, `logger.error()`, etc. |
+| Mainly used for **request tracking** | Mainly used for **application monitoring and debugging** |
+| Easy to set up and use | Highly configurable with multiple transports |
+| Usually logs to the console | Can log to console, files, databases, and cloud services |
+| Does not provide multiple log levels | Supports log levels such as `error`, `warn`, `info`, `http`, `debug`, etc. |
+
+
+
+## Key Difference
+
+- **Morgan** → Automatically logs **HTTP requests**.
+- **Winston** → Logs **application events** such as errors, warnings, info, and debug messages.
+
+## Interview Answer (Short)
+
+- **Morgan** is an Express middleware used for automatic **HTTP request logging**.
+- **Winston** is a general-purpose logging library used for **application logging**, including errors, warnings, and custom messages with different log levels.
